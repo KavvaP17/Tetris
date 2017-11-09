@@ -1,9 +1,0 @@
-export const GAME_FIELD_WIDTH = 10;
-export const GAME_FIELD_HEIGHT = 20;
-export const TETRIS_SPEED = 300;
-export const COUNT_FIGURE = 8;
-
-export const DIRECTION_RIGHT = 'DIRECTION_RIGHT';
-export const DIRECTION_LEFT = 'DIRECTION_LEFT';
-export const DIRECTION_ROTATE = 'DIRECTION_ROTATE';
-export const DIRECTION_SPEED = 'DIRECTION_SPEED';
