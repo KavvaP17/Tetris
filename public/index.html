@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div class='wrap'>
+	    <header class='game_header'>
+			<h1>Tetris</h1>
+	    </header>
+      	<main class = 'game_main'>
+			<section class="game_location_header">
+	        	<p class='game_start_lable'>Please, press space to start the game.</p>
+          	</section>
+		  	<section class="game_location">
+				<div class="col-1">
+					<table class="gameTable">
+		        		<tbody id='game_container'>
+		            	</tbody>
+		          	</table>
+				</div>
+			  	<div class="col-2">
+					<div class="next-figure">
+						<p>Next</p>
+						<table class="figure_table">
+							<tbody id='figure_container'>
+							</tbody>
+						</table>
+					</div>
+					<div class = 'game-score'>
+						<p> Your results: <span id = "score"></span></p>
+					</div>
+				</div>
+		  	</section>
+		  	<section class="game_location_footer">
+            	<h4>Game control</h4>
+            	<p class='game_control'>
+	              	<span><b>SPACE</b> - start game</span>
+				  	<span><b>D</b> - right</span>
+	              	<span><b>A</b> - left</span>
+				  	<span><b>Enter</b> - rotate</span>
+	              	<span><b>S</b> - speed</span>
+            	</p>
+          	</section>
+      	</main>
+    </div>
+    <footer class="game_footer">
+    	<p>footer</p>
+    </footer>
+	<script src="./bundle.js"></script>
+</body>
+</html>

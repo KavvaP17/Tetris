@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+}
+.wrap {
+  min-height: 100%;
+}
+.game_main {
+  padding-bottom: 60px;
+  /*Высота футера*/
+}
+.game_footer {
+  margin-top: -60px;
+  /*Минус Высота футера*/
+  height: 60px;
+  /*Высота футера*/
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+h4{
+  padding: 10px;
+  font-size: 20px;
+}
+.game_footer{
+  display: flex;
+  justify-content: center;
+}
+
+.game_header, .game_footer{
+  background-color: #222;
+  color: white;
+}
+
+/*game*/
+.gameTable{
+    background-color: #222;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+}
+.noEmpty {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    box-sizing:border-box;
+    margin: 0;
+}
+
+.game_header, .game_main{
+  display: flex;
+  justify-content: center;
+}
+
+.game_control span{
+  padding: 5px;
+}
+
+.game_control b{
+  font-weight: 600;
+}
+.game_main{
+	 flex-direction: column;
+	 align-items: center;
+}
+
+.game_start_lable{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.game_location_footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;;
+}
+.game_location{
+	display: flex;
+}
+.col-2{
+	background-color: #444;
+	color: white;
+}
+.col-2 .next-figure{
+	width: 110px;
+	height: 110px;
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	align-items: center;
+}
+.game-Score{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+.game_location_header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.game_start_lable{
+  padding: 10px;
+  font-size: 20px;
+}
+.game_result_lable{
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.game_location_footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;;
+}
+*/
